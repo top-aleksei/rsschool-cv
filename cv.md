@@ -1,18 +1,16 @@
-### Toparau Aliaksei
+## Toparau Aliaksei
 
-##### Minsk, Belarus
-
-Personal Info:
+#### Personal Info
 
 - Phone: +375-29-3554830
 - E-mail: toporov.aleksei@gmail.com
 - Location: Belarus, Minsk
 
-### About me
+#### About me
 
 Until this year I worked as an engineer at a construction site. So I have experience working as part of a team and individually. I have organised the bulding process for the last years with great success. Now I'm learning programming, and I'm very fond of it. In future I want to be a full stack developer.
 
-### Skills
+#### Skills
 
 - Python (basic)
 - HTML (intermediate knowledge level)
@@ -21,7 +19,7 @@ Until this year I worked as an engineer at a construction site. So I have experi
 - Git (intermediate knowledge level)
 - Editors: VSCode
 
-### Code example
+#### Code example
 
 ```
 function isPangram(string){
@@ -34,16 +32,16 @@ function isPangram(string){
 }
 ```
 
-### Work experience
+#### Work experience
 
 Have no experiense in IT company yet.
 
-### Education
+#### Education
 
 University:
 
 - BNTU, civil engeneering, 2011-2016
 
-### Foreing languages
+#### Foreing languages
 
 English (intermediate)
