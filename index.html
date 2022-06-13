@@ -17,27 +17,44 @@
     <header class="header__wrapper">
       <nav>
         <ul class="nav__list">
-          <li class="nav__item"><a href="" class="nav__link">Profile</a></li>
-          <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
-          <li class="nav__item"><a href="" class="nav__link">Summary</a></li>
-          <li class="nav__item"><a href="" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="" class="nav__link">Code</a></li>
-          <li class="nav__item"><a href="" class="nav__link">lorem500</a></li>
-          <li class="nav__item"><a href="" class="nav__link">7</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Contacts</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#lang" class="nav__link">Foreign languages</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#code" class="nav__link">Code example</a>
+          </li>
+          <li class="nav__item">
+            <a href="#proj" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work experience</a>
+          </li>
+          <li class="nav__item">
+            <a href="#edu" class="nav__link">Education</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main class="main__wrapper">
-      <section class="section">
+      <section class="section profile" id="home">
         <img class="ava" src="./assets/img/45678.jpg" alt="photo" />
-      </section>
-      <section class="section">
         <div>
           <h1>Toparau Aliaksei</h1>
           <h3>Junior front-end developer</h3>
         </div>
       </section>
-      <section class="section">
+
+      <section class="section" id="contacts">
         <h3>Contacts</h3>
         <ul>
           <li>Phone: +375-29-3554830</li>
@@ -46,7 +63,7 @@
           <li>Discord:</li>
         </ul>
       </section>
-      <section class="section">
+      <section class="section" id="about-me">
         <h3>About me</h3>
         <span
           >Until this year I worked as an engineer at a construction site. So I
@@ -56,7 +73,7 @@
           want to be a full stack developer.</span
         >
       </section>
-      <section class="section">
+      <section class="section" id="lang">
         <h3>Foreign languages</h3>
         <ul>
           <li>English (intermediate)</li>
@@ -64,7 +81,7 @@
           <li>Belarussian (native)</li>
         </ul>
       </section>
-      <section class="section">
+      <section class="section" id="skills">
         <h3>Skills</h3>
         <ul>
           <li>Python (basic)</li>
@@ -75,11 +92,11 @@
           <li>Editors: VSCode</li>
         </ul>
       </section>
-      <section class="section">
+      <section class="section" id="code">
         <h3>Code example</h3>
         <pre>
   function isPangram(string){
-    for (let i=97; i<113; i++) {
+    for (let i=97; i&lt;113; i++) {
        if (string.toLowerCase().indexOf(String.fromCharCode(i)) == -1)
         return false
       }
@@ -87,7 +104,7 @@
   }
         </pre>
       </section>
-      <section class="section">
+      <section class="section" id="proj">
         <h3>Projects</h3>
         <div class="project">
           <a
@@ -100,16 +117,16 @@
           <a
             href="https://github-user-seach-by-top-aleksei.netlify.app/"
             target="_blank"
-            >< Github user search</a
+            >&lt; Github user search</a
           >
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="work">
         <h3>Work experience</h3>
 
         <span>Unfortunately I have no experiense in IT company yet.</span>
       </section>
-      <section class="section">
+      <section class="section" id="edu">
         <h3>Education</h3>
         <span>University:</span>
         <ul>
@@ -120,9 +137,19 @@
     <footer class="footer__wrapper">
       <div>
         <span>© 2022</span>
-        <a href=""></a>
+        <a href="https://github.com/top-aleksei" target="_blank"
+          >top-aleksei
+        </a>
+        <a href="https://github.com/top-aleksei"
+          ><img
+            src="/assets/img/git-logo.png"
+            alt="git-logo"
+            style="padding: 7px; box-sizing: border-box"
+        /></a>
       </div>
-      <a href=""><img src="./assets/img/rs-logo.png" alt="" /></a>
+      <a href="https://rs.school/" target="_blank"
+        ><img src="./assets/img/rs-logo.png" alt="rs-school logo"
+      /></a>
     </footer>
   </body>
 </html>
