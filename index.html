@@ -1,7 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Toporov Aleksei CV</title>
   </head>
-  <body></body>
+  <body class="body">
+    <header class="header__wrapper">
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="" class="nav__link">Profile</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Summary</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Code</a></li>
+          <li class="nav__item"><a href="" class="nav__link">lorem500</a></li>
+          <li class="nav__item"><a href="" class="nav__link">7</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main__wrapper">
+      <section class="section">
+        <img class="ava" src="./assets/img/45678.jpg" alt="photo" />
+      </section>
+      <section class="section">
+        <div>
+          <h1>Toparau Aliaksei</h1>
+          <h3>Junior front-end developer</h3>
+        </div>
+      </section>
+      <section class="section">
+        <h3>Contacts</h3>
+        <ul>
+          <li>Phone: +375-29-3554830</li>
+          <li>E-mail: toporov.aleksei@gmail.com</li>
+          <li>Telegram: allekseit</li>
+          <li>Discord:</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h3>About me</h3>
+        <span
+          >Until this year I worked as an engineer at a construction site. So I
+          have experience working as part of a team and individually. I have
+          organised the bulding process for the last years with great success.
+          Now I’m learning programming, and I’m very fond of it. In future I
+          want to be a full stack developer.</span
+        >
+      </section>
+      <section class="section">
+        <h3>Foreign languages</h3>
+        <ul>
+          <li>English (intermediate)</li>
+          <li>Russian (native)</li>
+          <li>Belarussian (native)</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h3>Skills</h3>
+        <ul>
+          <li>Python (basic)</li>
+          <li>HTML (intermediate knowledge level)</li>
+          <li>CSS (intermediate knowledge level)</li>
+          <li>JavaScript (basic)</li>
+          <li>Git (intermediate knowledge level)</li>
+          <li>Editors: VSCode</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h3>Code example</h3>
+        <pre>
+  function isPangram(string){
+    for (let i=97; i<113; i++) {
+       if (string.toLowerCase().indexOf(String.fromCharCode(i)) == -1)
+        return false
+      }
+      return true
+  }
+        </pre>
+      </section>
+      <section class="section">
+        <h3>Projects</h3>
+        <div class="project">
+          <a
+            href="https://github-user-seach-by-top-aleksei.netlify.app/"
+            target="_blank"
+            ><img
+              src="./assets/img/project_screen.png"
+              alt="project_screenshot"
+          /></a>
+          <a
+            href="https://github-user-seach-by-top-aleksei.netlify.app/"
+            target="_blank"
+            >< Github user search</a
+          >
+        </div>
+      </section>
+      <section class="section">
+        <h3>Work experience</h3>
+
+        <span>Unfortunately I have no experiense in IT company yet.</span>
+      </section>
+      <section class="section">
+        <h3>Education</h3>
+        <span>University:</span>
+        <ul>
+          <li>BNTU, civil engeneering, 2011-2016</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer__wrapper">
+      <div>
+        <span>© 2022</span>
+        <a href=""></a>
+      </div>
+      <a href=""><img src="./assets/img/rs-logo.png" alt="" /></a>
+    </footer>
+  </body>
 </html>
