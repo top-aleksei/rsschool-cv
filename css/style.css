@@ -15,7 +15,8 @@ body {
   line-height: 1.5;
 }
 
-h3 {
+h2 {
+  font-size: 1.25em;
   margin-top: 7px;
   margin-bottom: 16px;
 }
