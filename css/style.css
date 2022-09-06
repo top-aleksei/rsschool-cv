@@ -104,3 +104,8 @@ a {
   border-radius: 15px;
   margin-right: 50px;
 }
+
+.git-logo {
+  padding: 7px;
+  box-sizing: border-box
+}
